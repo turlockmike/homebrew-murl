@@ -155,13 +155,13 @@ class Murl < Formula
   end
 
   resource "sniffio" do
-    url "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80e78f39b5c6d4a14aea3eb7e820582f36/sniffio-1.3.1.tar.gz"
+    url "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz"
     sha256 "f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc"
   end
 
   resource "exceptiongroup" do
-    url "https://files.pythonhosted.org/packages/94/60/eb537d38490ef2fce2b4e1e7831e573dbb46e51018467ccab1d3e2c5edbb/exceptiongroup-1.3.0.tar.gz"
-    sha256 "b241f5885f560bc56a59ee63ca4c6a8bfa46ae4ad651af316d4e81817bb9fd88"
+    url "https://files.pythonhosted.org/packages/50/79/66800aadf48771f6b62f7eb014e352e5d06856655206165d775e675a02c9/exceptiongroup-1.3.1.tar.gz"
+    sha256 "8b412432c6055b0b7d14c310000ae93352ed6754f70fa8f7c34141f91c4e3219"
   end
 
   def install
