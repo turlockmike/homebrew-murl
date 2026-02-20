@@ -3,8 +3,8 @@ class Murl < Formula
 
   desc "MCP Curl - CLI for querying Model Context Protocol servers"
   homepage "https://github.com/turlockmike/murl"
-  url "https://files.pythonhosted.org/packages/a1/9b/a8770591938e39e4de8b2de3597acbf801bddf435a04d3dcd5d5c2821f12/mcp_curl-0.3.0.tar.gz"
-  sha256 "a4d9b5ae8990ccb4ff22bc9bb1e466909e08ef225450a6f26ab7abb9970fdf00"
+  url "https://files.pythonhosted.org/packages/48/b7/30e20fd5954bcfe8c082118a9f7560edfe1210234d5804ec66fb4c7e45fd/mcp_curl-0.3.1.tar.gz"
+  sha256 "bc898fe62a48dfa99d3a5818c0c186e0bf2aad4292e8ed953ed61fd5341251d7"
   license "MIT"
 
   depends_on "python@3.12"
@@ -155,6 +155,6 @@ class Murl < Formula
   end
 
   test do
-    assert_match "murl version 0.3.0", shell_output("#{bin}/murl --version")
+    assert_match "murl version 0.3.1", shell_output("#{bin}/murl --version")
   end
 end
